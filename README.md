@@ -98,14 +98,17 @@ sweet-shop-management-system/
 ├── test-report/
 │
 └── README.md
+
+
+
 ## 🧠 AI Usage Disclosure
 
-### 🤖 AI Tools Used
+## 🤖 AI Tools Used
 - ChatGPT (OpenAI)
 
 ---
 
-### 🔍 How AI Was Used
+## 🔍 How AI Was Used
 - Generating initial boilerplate for controllers and services  
 - Assisting with writing unit and integration test cases  
 - Debugging failing tests and handling edge cases  
@@ -113,7 +116,7 @@ sweet-shop-management-system/
 
 ---
 
-### 🪞 Reflection
+## 🪞 Reflection
 AI significantly improved development speed and productivity by reducing time spent on repetitive tasks.  
 All business logic, architectural decisions, validations, and refactoring were **reviewed, modified, and finalized by me** to ensure correctness, originality, and maintainability.
 
