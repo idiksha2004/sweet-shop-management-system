@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:watch": "jest --watch",
+    "typeorm": "ts-node ./node_modules/typeorm/cli.js"
+  }
+}
