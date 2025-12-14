@@ -1,198 +1,130 @@
-Below is a complete, submission-ready README.md file written exactly according to the guidelines you were given (TDD, AI usage, setup steps, screenshots, test report, etc.).
+# 🍬 Sweet Shop Management System
 
-You can copy–paste this directly into your root README.md file and only adjust small details like repo link or deployed URL (if any).
+A full-stack **Sweet Shop Management System** designed and implemented using modern web technologies and **Test-Driven Development (TDD)** principles.
 
-🍬 Sweet Shop Management System
-A full-stack Sweet Shop Management System designed and implemented using modern web technologies and Test-Driven Development (TDD) principles.
 The application allows users to browse sweets, place orders, and enables admins to manage sweets, inventory, and orders securely.
 
-This project demonstrates clean architecture, RESTful API design, JWT authentication, automated testing, and responsible AI-assisted development.
+This project demonstrates:
+- Clean architecture
+- RESTful API design
+- JWT-based authentication
+- Automated testing
+- Responsible AI-assisted development
 
-🚀 Features
-🔐 Authentication
-User registration and login
+---
 
-Secure JWT-based authentication
+## 🚀 Features
 
-Protected API routes
+### 🔐 Authentication
+- User registration and login  
+- Secure JWT-based authentication  
+- Protected API routes  
 
-🧁 Sweet Management (Admin)
-Add new sweets
+---
 
-Update price and stock
+### 🧁 Sweet Management (Admin)
+- Add new sweets  
+- Update price and stock  
+- Delete sweets  
+- View all sweets  
 
-Delete sweets
+---
 
-View all sweets
+### 📦 Inventory Management
+- Track available quantity  
+- Prevent ordering out-of-stock items  
 
-📦 Inventory Management
-Track available quantity
+---
 
-Prevent ordering out-of-stock items
+### 🛒 Customer Features
+- Browse sweets  
+- Add items to cart  
+- Place orders  
 
-🛒 Customer Features
-Browse sweets
+---
 
-Add to cart
+### 🧪 Testing
+- Backend developed using **Test-Driven Development (TDD)**  
+- Unit and integration tests for core business logic  
+- High test coverage for services and controllers  
 
-Place orders
+---
 
-🧪 Testing
-Backend developed using Test-Driven Development
+## 🛠️ Tech Stack
 
-Unit and integration tests for core logic
+### 🔙 Backend
+- Node.js  
+- Express.js  
+- TypeScript  
+- JWT Authentication  
+- PostgreSQL / MongoDB (as configured)  
+- Jest & Supertest (Testing)  
 
-High test coverage for services and controllers
+---
 
-🛠️ Tech Stack
-Backend
-Node.js
+### 🎨 Frontend
+- React  
+- Vite  
+- HTML  
+- CSS  
+- JavaScript  
 
-Express.js
+---
 
-TypeScript
+### 🧰 Tools & Practices
+- Git & GitHub  
+- RESTful APIs  
+- Clean Code & SOLID Principles  
+- Test-Driven Development (Red → Green → Refactor)  
 
-JWT Authentication
+---
 
-PostgreSQL / MongoDB (as configured)
+## 📁 Project Structure
 
-Jest & Supertest (Testing)
-
-Frontend
-React
-
-Vite
-
-HTML, CSS, JavaScript
-
-Tools & Practices
-Git & GitHub
-
-TDD (Red → Green → Refactor)
-
-Clean Code & SOLID principles
-
-📁 Project Structure
-pgsql
-Copy code
+```text
 sweet-shop-management-system/
 │
 ├── backend/
 │   ├── src/
-│   │   ├── controllers/
-│   │   ├── services/
-│   │   ├── routes/
-│   │   ├── models/
-│   │   └── app.ts
-│   │
 │   ├── tests/
-│   │   ├── auth/
-│   │   ├── sweets/
-│   │   └── orders/
-│   │
 │   └── package.json
 │
 ├── frontend/
 │   ├── src/
-│   ├── public/
 │   └── package.json
 │
 ├── screenshots/
-│   ├── login.png
-│   ├── dashboard.png
-│   └── sweets.png
 │
 ├── test-report/
-│   └── backend-tests.png
 │
 └── README.md
-⚙️ Setup & Run Locally
-1️⃣ Clone Repository
-bash
-Copy code
-git clone https://github.com/<your-username>/sweet-shop-management-system.git
-cd sweet-shop-management-system
-2️⃣ Backend Setup
-bash
-Copy code
-cd backend
-npm install
-npm run dev
-Backend runs at:
+## 🧠 AI Usage Disclosure
 
-arduino
-Copy code
-http://localhost:5000
-3️⃣ Frontend Setup
-bash
-Copy code
-cd frontend
-npm install
-npm run dev
-Frontend runs at:
+### 🤖 AI Tools Used
+- ChatGPT (OpenAI)
 
-arduino
-Copy code
-http://localhost:5173
-🧪 Running Tests (Backend)
-bash
-Copy code
-cd backend
-npm test
-For coverage:
+---
 
-bash
-Copy code
-npm test -- --coverage
-📸 Test results screenshot is available in:
+### 🔍 How AI Was Used
+- Generating initial boilerplate for controllers and services  
+- Assisting with writing unit and integration test cases  
+- Debugging failing tests and handling edge cases  
+- Refactoring code to follow clean coding practices  
 
-bash
-Copy code
-test-report/backend-tests.png
-📸 Screenshots
-Login Page
+---
 
-Admin Dashboard
+### 🪞 Reflection
+AI significantly improved development speed and productivity by reducing time spent on repetitive tasks.  
+All business logic, architectural decisions, validations, and refactoring were **reviewed, modified, and finalized by me** to ensure correctness, originality, and maintainability.
 
-Sweets Management
+---
 
-🧠 My AI Usage (Mandatory)
-🔧 AI Tools Used
-ChatGPT (OpenAI)
+## 📌 GitHub Repository
+🔗 https://github.com/idiksha2004/sweet-shop-management-system
 
-🧩 How I Used AI
-Generated initial boilerplate code for controllers and services
+---
 
-Assisted in writing Jest test cases for backend services
+## 👤 Author
+**Diksha**  
+GitHub: https://github.com/idiksha2004
 
-Helped refactor code to follow SOLID and clean coding principles
-
-Debugged failing test cases and edge conditions
-
-Brainstormed API endpoint structure and naming conventions
-
-🪞 Reflection on AI Usage
-AI significantly improved my development speed by reducing time spent on repetitive tasks such as boilerplate generation and test scaffolding. However, all business logic, architectural decisions, validations, and refactoring were reviewed, modified, and finalized by me to ensure correctness, originality, and maintainability. AI acted as an assistant, not a replacement for understanding or decision-making.
-
-📊 Test Report
-Backend tests were written before implementing functionality, following Red–Green–Refactor
-
-Test execution results and coverage proof are included in the test-report/ directory
-
-🌐 Live Demo (Optional)
-Not deployed yet
-
-(Optional: Add Vercel / Netlify / Render link here for brownie points)
-
-📌 Notes for Reviewers
-Commit history clearly reflects TDD workflow
-
-AI usage is transparently documented and acknowledged
-
-Code follows clean architecture and best practices
-
-No third-party code copied or plagiarized
-
-👤 Author
-Your Name
-GitHub: https://github.com/<your-username>
